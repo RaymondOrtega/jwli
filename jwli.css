@@ -1,0 +1,830 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
+body{
+  margin: 0;
+}
+ul{
+  list-style: none;
+}
+.clearfix:after {
+   content: ".";
+   display: block;
+   clear: both;
+   visibility: hidden;
+   line-height: 0;
+   height: 0;}
+
+header{
+  float: left;
+  clear: both;
+  height: 35px;
+  width: 100%;
+}
+
+header > ul{
+ padding: 0 0 0 12%;
+  float: left;
+  display: inline-block;
+  word-spacing: 11em;
+  text-align: center;
+}
+
+header > ul > li{
+  font-size: 1.3em;
+  display: inline-block;
+}
+
+.Apply{
+  height: 21px;
+  padding-top: 2px;
+  padding-left: 2.4%;
+  width: 7%;
+  font-size: 1.3em;
+  color: white;
+  background-color: rgb(51, 57, 66);
+  margin: 6px 0 0 5%;
+  display: inline-block;
+}
+
+ .TopOfPage{
+   background-color: rgb(241, 243, 245);
+   float: left;
+   display: inline-block;
+  height: 350px;
+  width: 50%;
+}
+
+.TopOfPageImg{
+  background-color: rgb(241, 243, 245);
+  display: inline-block;
+  float: left;
+  height: 350px;
+  width: 50%;
+}
+
+.woman{
+  margin: 94px 0 0 33%;
+}
+
+.TopOfPage > img{
+ margin: 7px 0 0 20%;
+}
+
+.TopOfPage > img + h2{
+  margin: 0 0 0 05%;
+  font-size: 3.3em;
+  max-width: 85%;
+}
+
+.TopOfPage > img + h2 + p{
+  margin: 10px 0 0 5%;
+  font-size: 2em;
+  max-width: 70%;
+}
+
+.AboveForm{
+  font-size: 1.3em;
+  margin: 50px 0 0 5%;
+}
+
+.AboveForm + form > input{
+  display: inline-block;
+  width: 45%;
+  height: 25px;
+  margin: 6px 0 0 5%;
+}
+
+.Submit{
+  height: 21px;
+  padding-top: 2px;
+  padding-left: 2.4%;
+  width: 11%;
+  font-size: 1.3em;
+  color: white;
+  background-color: rgb(183, 196, 206);
+  margin: 6px 0 0 5%;
+  display: inline-block;
+}
+
+.UnderTitle {
+  margin: 350px 0 0 0;
+  float: left;
+  height: 350px;
+  width: 100%;
+}
+
+.UnderTitle > p{
+  margin: 80px 0 0 33%;
+  max-width: 40%;
+  font-size: 2.2em;
+}
+
+.UnderTitle > p + p{
+  border-top: solid rgba(254, 221, 240, 0.5);
+  display: inline-block;
+  margin: 35px 0 0 3%;
+  max-width: 46%;
+  font-size: 2em;
+}
+
+.based{
+  font-size: 1.4em;
+  color: silver;
+  margin: 40px 0 0 18%;
+  max-width: 57%;
+  text-align: center;
+  display: block;
+}
+
+.box1{
+  background-color: rgb(241, 243, 245);
+  float: left;
+  height: 400px;
+  width: 100%;
+}
+
+.box1Img{
+  float: right;
+  height: 400px;
+  width: 50%;
+  display: inline-block;
+}
+
+.box1Img > img{
+  margin: 17px 0 0 30%;
+}
+
+.box1Img > img + h3{
+  margin: 5px 0 0 44%
+}
+
+.box1Internal{
+  float: left;
+  height: 400px;
+  width: 50%;
+  display: inline-block;
+}
+.box1Internal > h2{
+  margin: 10px 0 10px 3%;
+  font-size: 2em;
+}
+.box1Internal > p{
+  display: inline-block;
+  margin: 0 0 0 3%;
+  line-height: 1.5em;
+  font-size: 1.5em;
+  max-width: 100%;
+}
+.RightImg{
+  float: right;
+  display: inline-block;
+  height: 350px;
+  width: 50%
+}
+
+.h2{
+  font-size: 2.2em;
+  float: left;
+  margin: 30px 0 0 47%;
+}
+.Toko{
+  float: left;
+  height: 550px;
+  width: 100%;
+}
+.homegirl{
+  margin: 60px 0 0 20%;
+}
+.Toko > section{
+  float: left;
+  height: 550px;
+  width: 40%;
+}
+
+.bio{
+  font-size: 2em;
+  margin: 60px 0 7px 0;
+}
+.bio + p{
+  line-height: 2.5em;
+  font-size: 1.8em;
+  max-width: 100%;
+  margin: 0 0 0 0;
+}
+
+.Fish{
+  float: left;
+  height: 400px;
+  width: 100%;
+}
+
+.InternalFish {
+  float: left;
+  height: 550px;
+  width: 50%;
+}
+.InternalFish > h4{
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 2.0em;
+    color: silver;
+    margin: 50px 0 0 10%;
+}
+.InternalFish > img{
+  margin: 9px 0 0 9%;
+}
+.FishPara{
+  line-height: 1.5em;
+  font-size: 1.6em;
+  max-width: 100%;
+  margin: 25px 0 0 10%;
+}
+.FishPara2{
+  line-height: 1.5em;
+  font-size: 1.6em;
+  max-width: 100%;
+  margin: -7px 0 0 10%;
+}
+footer{
+  background-color: rgb(143, 155, 162);
+  float: left;
+  height: 400px;
+  width: 100%;
+}
+.HeadFoot{
+  background-color: rgb(184, 197, 207);
+  float: left;
+  height: 65px;
+  width: 100%;
+}
+.Newsletter{
+  font-family: sans-serif;
+  font-weight: 300;
+  display: inline-block;
+  font-size: 2em;
+  color: white;
+  margin: 22px 0 0 9%;
+}
+.HeadFoot > h5 + form{
+  float: right;
+  display: inline-block;
+}
+.email {
+  margin: 10px 0 0 0;
+  border-radius: 5%;
+  width: 213%;
+  height: 39px;
+}
+
+.Button{
+  font-family: sans-serif;
+  font-weight: 300;
+  border-radius: 5%;
+  height: 35px;
+  width: 10%;
+  padding: 7px 0 0 2.8888%;
+  display: inline-block;
+  font-size: 1.7em;
+  color: white;
+  background-color: rgb(143, 156, 165);
+  margin: 12px 8% 1px 12%;
+  float: right;
+}
+.UnderHeadFoot{
+
+  margin: 65px 0% 0 9%;
+  border-bottom: 2px solid white;
+  height: 69px;
+  width: 84%;
+}
+ .sep {
+   margin:  35px 0 0 0;
+   color: white;
+   font-size: 1.6em;
+   display: inline-block;
+ }
+ .sepLink {
+   margin:  35px 0 0 40%;
+   color: white;
+   font-size: 1.6em;
+   display: inline-block;
+ }
+ .sepLink1 {
+   margin:  35px 0 0 2%;
+   color: white;
+   font-size: 1.6em;
+   display: inline-block;
+ }
+ .sepLink2 {
+   margin:  35px 0 0 2%;
+   color: white;
+   font-size: 1.6em;
+   display: inline-block;
+ }
+.ul1{ font-size: 1.5em;
+  margin: 40px 0 0 6.55%;
+  float: left;
+  display: inline-block;
+}
+.ul1 > li{
+  color: white;
+  line-height: 2.3em;
+  font-size: 1em;
+}
+.ul2{
+  font-size: 1.5em;
+  margin: 40px 0 0 2%;
+    float: left;
+    display: inline-block;
+}
+.ul2 > li{
+  color: white;
+  line-height: 2.3em;
+  font-size: 1em;
+}
+.ul3{
+  font-size: 1.5em;
+  margin: 40px 0 0 2%;
+    float: left;
+    display: inline-block;
+}
+.ul3 > li{
+  color: white;
+  line-height: 2.3em;
+}
+.h51{
+   font-size: 1.5em;
+   color: white;
+   margin: 40px 0 0 6%;
+   float: left;
+   display: inline-block;
+}
+.h52{
+  font-size: 1.5em;
+  color: white;
+  margin: 40px 0 0 6%;
+  float: left;
+  display: inline-block;
+}
+.h53{
+  font-size: 1.5em;
+  color: white;
+  margin: 40px 0 0 6%;
+  float: left;
+  display: inline-block;
+}
+
+@media only screen and (max-width:1282px){
+  .sepLink {
+    margin:  35px 0 0 40%;
+    color: white;
+    font-size: 1.6em;
+    display: inline-block;
+    display: none;
+  }
+  .sepLink1 {
+    margin:  35px 0 0 2%;
+    color: white;
+    font-size: 1.6em;
+    display: inline-block;
+    display: none;
+  }
+  .sepLink2 {
+    margin:  35px 0 0 2%;
+    color: white;
+    font-size: 1.6em;
+    display: inline-block;
+    display: none;
+  }
+
+  header > ul{
+   padding: 0 0 0 12%;
+    float: left;
+    display: inline-block;
+    word-spacing: 11em;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width:1232px){
+
+  .TopOfPage{
+    background-color: rgb(241, 243, 245);
+    float: left;
+    display: inline-block;
+   height: 350px;
+   width: 100%;
+  }
+
+  .TopOfPageImg{
+    background-color: rgb(241, 243, 245);
+    display: inline-block;
+    float: left;
+    height: 150px;
+    width: 100%;
+  }
+
+  header > ul > li {
+    font-size: 1.3em;
+    display: none;
+}
+.Apply {
+    height: 21px;
+    padding-top: 2px;
+    padding-left: 5.4%;
+    width: 13%;
+    font-size: 1.3em;
+    color: white;
+    background-color: rgb(51, 57, 66);
+    margin: 6px 0 0 27%;
+    display: inline-block;
+}
+.Submit {
+    height: 21px;
+    padding-top: 2px;
+    padding-left: 2.4%;
+    width: 11%;
+    font-size: 1.3em;
+    color: white;
+    background-color: rgb(183, 196, 206);
+    margin: 6px 0 0 23%;
+    display: inline-block;}
+
+    .AboveForm + form > input {
+    display: inline-block;
+    width: 45%;
+    height: 25px;
+    margin: 6px 0 0 23%;
+}
+.AboveForm {
+    font-size: 1.3em;
+    margin: 50px 0 0 23%;
+}
+
+
+.TopOfPage > img + h2 + p {
+    margin: 10px 0 0 23%;
+    font-size: 2em;
+    max-width: 50%;}
+
+    .TopOfPage > img {
+    margin: 7px 0 0 34%;
+}
+    .TopOfPage > img + h2 {
+    margin: 0 0 0 24%;
+    font-size: 3.3em;
+    max-width: 86%;
+}
+
+.UnderTitle > p {
+  display: none;
+    margin: 83px 0 0 33%;
+    max-width: 40%;
+    font-size: 2.2em;
+}
+
+.UnderTitle > p + p {
+    display: none;
+    border-top: solid rgba(254, 221, 240, 0.5);
+    margin: 35px 0 0 3%;
+    max-width: 46%;
+    font-size: 2em;
+}
+.based {
+    display: none;
+    font-size: 1.4em;
+    color: silver;
+    margin: 40px 0 0 18%;
+    max-width: 57%;
+    text-align: center;
+    display: block;
+}
+
+.TopOfPageImg {
+    background-color: rgb(241, 243, 245);
+    display: inline-block;
+    float: left;
+    height: 360px;
+    width: 100%;
+}
+.woman {
+  display: none;
+    margin: 94px 0 0 33%;
+}
+.Apply {
+    height: 21px;
+    padding-top: 2px;
+    padding-left: 44.4%;
+    width: 100%;
+    font-size: 1.3em;
+    color: white;
+    background-color: rgb(51, 57, 66);
+    margin: 6px 0 0 -12%;
+    display: inline-block;
+}
+.box1Img {
+    float: right;
+    height: 400px;
+    width: 50%;
+    display: none;}
+    .box1Internal {
+    float: left;
+    height: 400px;
+    width: 100%;
+    display: inline-block;
+}
+}
+@media only screen and (max-width:1232px){
+
+
+  .Toko > section {
+      float: left;
+      height: 550px;
+      width: 40%;
+      display: none;
+  }
+
+  .homegirl {
+    display: none;
+      margin: 60px 0 0 20%;
+  }
+
+  .box1 {
+      background-color: rgb(241, 243, 245);
+      float: left;
+      height: 226px;
+      width: 100%;
+  }
+  .UnderTitle {
+    margin: 350px 0 0 0;
+    float: left;
+    height: 160px;
+    width: 100%;
+}
+footer {
+    background-color: rgb(143, 155, 162);
+    float: left;
+    height: 400px;
+    width: 100%;
+    margin: 200px 0 0 0;
+}
+
+.InternalFish {
+    background-color: rgb(241, 243, 245);
+    float: left;
+    height: 550px;
+    width: 50%;
+}
+
+
+.Toko {
+    background-color: rgb(241, 243, 245);
+    float: left;
+    height: 550px;
+    width: 100%;
+}
+
+.box1Internal {
+  background-color: rgb(241, 243, 245);
+    float: left;
+    height: 400px;
+    width: 100%;
+    display: inline-block;
+}
+
+}
+
+@media only screen and (max-width:1139px){
+
+
+
+  .h2 {
+      font-size: 2.2em;
+      float: left;
+      margin: 150px 0 0 47%;
+  }
+
+
+  .Toko {
+      margin: 0 0 0 0;
+      background-color: rgb(241, 243, 245);
+      float: left;
+      height: 550px;
+      width: 100%;
+}
+.Button {
+    font-family: sans-serif;
+    font-weight: 300;
+    border-radius: 5%;
+    height: 35px;
+    width: 10%;
+    padding: 7px 0 0 2.8888%;
+    display: inline-block;
+    font-size: 1.7em;
+    color:  rgb(143, 156, 165);
+    background-color: white;
+    margin: 80px 13% 1px -11%;
+    float: right;
+}
+
+}
+@media only screen and (max-width:947px){
+
+
+  .Button {
+    font-family: sans-serif;
+    font-weight: 300;
+    border-radius: 5%;
+    height: 35px;
+    width: 10%;
+    padding: 7px 0 0 1.8888%;
+    display: inline-block;
+    font-size: 1.7em;
+    color: rgb(143, 156, 165);
+    background-color: white;
+    margin: 80px 30% 1px -14%;
+    float: right;}
+}
+
+
+
+@media only screen and (max-width:805px){
+  .Apply {
+      height: 36px;
+      padding-top: 2px;
+      padding-left: 46.4%;
+      width: 100%;
+      font-size: 2.3em;
+      color: white;
+      background-color: rgb(51, 57, 66);
+      margin: 6px 0 0 -12%;
+      display: inline-block;
+  }
+  .h2 {
+    font-size: 2.2em;
+    float: left;
+    margin: 100px 0 0 42%;
+}
+
+.TopOfPage > img + h2 {
+    margin: 0 0 0 20%;
+    font-size: 3.3em;
+    max-width: 86%;
+}
+
+.email {
+    margin: 10px 0 0 0;
+    border-radius: 5%;
+    width: 120%;
+    height: 39px;
+}
+}
+@media only screen and (max-width:797px){
+  .Button {
+    font-family: sans-serif;
+    font-weight: 300;
+    border-radius: 5%;
+    height: 35px;
+    width: 10%;
+    padding: 7px 0 0 1.8888%;
+    display: inline-block;
+    font-size: 1.7em;
+    color: rgb(143, 156, 165);
+    background-color: white;
+    margin: 80px 20% 1px -18%;
+    float: right;
+}
+
+
+}
+@media only screen and (max-width:734px){
+
+
+  .TopOfPage > img {
+      margin: 7px 0 0 10%;
+  }
+
+  .TopOfPage > img + h2 {
+      margin: 0 0 0 13%;
+      font-size: 3.3em;
+      max-width: 86%;
+  }
+  .h2 {
+    font-size: 2.2em;
+    float: left;
+    margin: 457px 0 0 32%;
+}
+
+.InternalFish {
+    background-color: rgb(241, 243, 245);
+    float: left;
+    height: 550px;
+    width: 100%;
+
+}
+
+
+.Newsletter {
+    font-family: sans-serif;
+    font-weight: 300;
+    display: inline-block;
+    font-size: 2em;
+    color: white;
+    margin: 5px 0 0 15%;
+}
+
+
+.UnderHeadFoot {
+    margin: 65px 0% 0 9%;
+    border-bottom: 2px solid white;
+    height: 240px;
+    width: 84%;
+}
+
+footer {
+    background-color: rgb(143, 155, 162);
+    float: left;
+    height: 660px;
+    width: 100%;
+    margin: 780px 0 0 0;
+
+}
+
+.h51 {
+    font-size: 1.5em;
+    color: white;
+    margin: 40px 0 0 -5%;
+    float: left;
+    display: inline-block;
+}
+
+.Button {
+    font-family: sans-serif;
+    font-weight: 300;
+    border-radius: 5%;
+    height: 35px;
+    width: 20%;
+    padding: 7px 0 0 1.8888%;
+    display: inline-block;
+    font-size: 1.7em;
+    color: rgb(143, 156, 165);
+    background-color: white;
+    margin: 202px 73% 1px -18%;
+    float: right;
+}
+.InternalFish > img {
+    margin: 17px 0 31px 9%;
+}
+.sep {
+    margin: 0px 0 0 16px;
+    color: white;
+    font-size: 1.6em;
+    display: inline-block;
+}
+.email {
+    margin: 148px 0 0 0;
+    border-radius: 5%;
+    width: 213%;
+    height: 39px;
+}
+}
+
+@media only screen and (max-width:534px){
+
+
+.Button {
+    font-family: sans-serif;
+    font-weight: 300;
+    border-radius: 5%;
+    height: 35px;
+    width: 20%;
+    padding: 7px 0 0 1.8888%;
+    display: inline-block;
+    font-size: 1.7em;
+    color: rgb(143, 156, 165);
+    background-color: white;
+    margin: 202px 73% 1px -24%;
+    float: right;
+}
+}
+@media only screen and (max-width:408px){
+.Button {
+    font-family: sans-serif;
+    font-weight: 300;
+    border-radius: 5%;
+    height: 35px;
+    width: 20%;
+    padding: 7px 0 0 1.8888%;
+    display: inline-block;
+    font-size: 1.7em;
+    color: rgb(143, 156, 165);
+    background-color: white;
+    margin: 202px 73% 1px -32%;
+    float: right;
+}
+}
